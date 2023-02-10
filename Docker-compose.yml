@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    image: golang
+    container_name: golang
+    tty: true
+    volumes:
+      - .:/opt/app
+    working_dir: /opt/app
